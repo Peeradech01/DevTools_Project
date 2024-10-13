@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE    = 'beztth/devtools_app:latest'
-        REMOTE_HOST     = 'useless2375@34.124.158.102'
+        REMOTE_HOST     = 'useless2375@35.198.243.227'
         SSH_CREDENTIALS = 'ssh-prod_instance'
         DOCKER_CREDENTIALS = credentials('dockerhub')
 
